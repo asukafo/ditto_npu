@@ -1,0 +1,11 @@
+build/
+.Xil/
+*.jou
+*.str
+*.pb
+*.rpx
+*.wdb
+*.pyc
+__pycache__/
+.DS_Store
+

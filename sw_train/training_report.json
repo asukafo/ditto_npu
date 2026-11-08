@@ -1,0 +1,26 @@
+{
+  "dataset": "sklearn bundled UCI optical handwritten digits",
+  "seed": 20261108,
+  "input_shape": [
+    8,
+    8,
+    1
+  ],
+  "architecture": [
+    "conv3x3/8/pad1",
+    "relu",
+    "maxpool2",
+    "conv4x4/10"
+  ],
+  "train_count": 1221,
+  "validation_count": 216,
+  "test_count": 360,
+  "validation_accuracy": 0.9953703703703703,
+  "float_test_accuracy": 0.9666666666666667,
+  "int8_test_accuracy": 0.9694444444444444,
+  "conv_shift": 8,
+  "fc_shift": 9,
+  "macs_per_inference": 5888,
+  "seconds": 4.174535274505615,
+  "dataset_sha256": "127bf61ecec3c27db4c32b3e7683c9f24efde4daf611a826eb1d5d0b859374b5"
+}
